@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Real and synthetic datasets
+data/
+data_synthetic/
+
+# Model files and checkpoints
+*.keras
+*.h5
+*.weights.h5
+*.ckpt
+checkpoints/
+
+# Temporary and experiment outputs
+extended_gap_test/
+extended_test_results/
+real_results/
+real_test_results/
+smoke_results/
+
+# Python environment files
+.env
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
